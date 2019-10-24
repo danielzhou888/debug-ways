@@ -226,7 +226,7 @@
 **外部脚本：**
 
 ```
-
+java -server -Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8888 -classpath /export/servers/ddky-user-impl-1.0.0/lib com.ddky.user.server.Startup > service.log 2>&1 &
 ```
 
 **存放目录：**
@@ -234,6 +234,10 @@
 > 默认存放在/export/servers目录下，文件名称固定为：debug-service-restart.sh
 
 ### 如何配置Web服务
+
+```
+
+```
 
 
 
