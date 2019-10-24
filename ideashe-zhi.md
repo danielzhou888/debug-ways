@@ -61,24 +61,14 @@ suspend=y/n 是否在调试客户端建立连接之后启动 VM 。
 **步骤如下：**
 
 1. 配置应用进入debug模式，在启动项目时加入虚拟机参数，或者配置"_JAVA_OPTIONS"
-“-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=*:5005”：
-
+“**-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=*:5005**”：
 
 2. 注意address的写法，自从Java9.0以来，JDWP默认只支持到本地，即如果你写成address=5005，那么只能在本地进行调试，并不能连接到远程(http://www.oracle.com/technetwork/java/javase/9-notes-3745703.html#JDK-8041435)。
+3. 若要远程进行调试则应该在address这一参数之前增加*::
+> -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=*:5005
 
-若要远程进行调试则应该在address这一参数之前增加*::
-
--Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=*:5005
-Run -> Edit Configurations...进入添加启动项页面：
-
-
-如果你的启动项中没有点击 "+" ，选择"Remote"添加，自定义一个名字（比如我命名为"remote"）：
-
-
-配置好你的 HostIp，以及开启的调试端口，点击 "OK" 保存：
-
-
-点击 "debug" 图标，启动调试：
-
-
-给项目打上断点，就能像在本地一样调试远程项目了：
+4. Run -> Edit Configurations...进入添加启动项页面：
+5. 点击 "+" ，选择"Remote"添加，自定义一个名字（比如我命名为"remote"）：
+> 配置好你的 HostIp，以及开启的调试端口，点击 "OK" 保存：
+6. 点击 "debug" 图标，启动调试：
+7. 给项目打上断点，就能像在本地一样调试远程项目了：
