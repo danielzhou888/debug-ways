@@ -77,11 +77,17 @@
 4. Run -&gt; Edit Configurations...进入添加启动项页面：
 
 5. 点击 "+" ，选择"Remote"添加，自定义一个名字（比如我命名为"remote"）：
+
    > 配置好你的 HostIp，以及开启的调试端口，点击 "OK" 保存：
+   >
+   > ![](/assets/import2.png)
+
 6. 点击 "debug" 图标，启动调试：
-7. 给项目打上断点，就能像在本地一样调试远程项目了：
+7. 给项目打上断点，就能像在本地一样调试远程项目了：![](/assets/import3.png)
 
 ##### 如何设置只挂在vm一次，不影响服务正常功能
+
+1. 右击断点处 ----&gt; 勾选Thread   ----&gt; 点击More
 
 ![](/assets/import.png)
 
