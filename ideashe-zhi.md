@@ -1,1 +1,1 @@
-### idea设置
+### intellij idea设置
