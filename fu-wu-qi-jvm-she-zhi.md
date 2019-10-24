@@ -233,13 +233,7 @@
 
 > 默认存放在/export/servers目录下，文件名称固定为：debug-service-restart.sh
 
-
-
-
-
 ### 如何配置Web服务
-
-web配置
 
 
 
