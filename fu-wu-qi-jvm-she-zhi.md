@@ -239,5 +239,11 @@ java -server -Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4
 
 ```
 
+**tomcat启动脚本配置：**
+
+
+
 ![](/assets/import6.png)
+
+
 
