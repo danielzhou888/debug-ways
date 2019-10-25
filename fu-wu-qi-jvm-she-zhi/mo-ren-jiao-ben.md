@@ -135,7 +135,7 @@
 
 位置：固定在/export/servers目录下
 
-debug-start.sh
+debug-service-restart.sh
 
     #!/bin/bash
 
