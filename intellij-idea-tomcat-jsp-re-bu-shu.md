@@ -8,6 +8,8 @@
 
 ![](/assets/import11.png)
 
+**配置热加载方式：**
+
 ![](/assets/import12.png)
 
 > on ‘update‘ action：当用户主动执行更新的时候更新　　　　快捷键:Ctrl + F9
