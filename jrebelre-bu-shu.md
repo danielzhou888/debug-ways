@@ -46,3 +46,7 @@ JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的�
 
 ![](/assets/import37.png)
 
+可以看到在服务未重启的情况下，新增方法，通过build \| Recomplier，可使修改近乎实时生效。
+
+![](/assets/import38.png)
+
