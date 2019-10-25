@@ -24,9 +24,9 @@ JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的�
 
 选择License server方式
 
-> Url：    [http://139.199.89.239:1008/88414687-3b91-4286-89ba-2dc813b107ce](https://jrebel.hexianwei.com/a2db8523-3c85-4a8c-a22d-f8fe1c143dd4)
+> Url：    [http://139.199.89.239:1008/88414687-3b91-4286-89ba-2dc813b107ce](https://jrebel.hexianwei.com/a2db8523-3c85-4a8c-a22d-f8fe1c143dd4)
 >
 > email：随便输入
 
-
+![](/assets/import29.png)
 
