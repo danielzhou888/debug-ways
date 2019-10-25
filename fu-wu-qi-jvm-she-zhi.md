@@ -241,10 +241,6 @@ java -server -Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4
 
 ### 如何配置Web服务
 
-```
-
-```
-
 **tomcat启动脚本配置：**
 
 tomcat启动脚本
