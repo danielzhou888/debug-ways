@@ -135,6 +135,14 @@
 
 位置：固定在/export/servers目录下
 
+**存放目录：**
+
+> 默认存放在/export/servers目录下，文件名称固定为：debug-service-restart.sh
+
+**使用：**
+
+> 需要调试此服务时，保持服务器上代码与本地代码相同，执行debug-service-restart.sh脚本，开启远程端口，本地debug当前服务即可。
+
 debug-service-restart.sh
 
     #!/bin/bash
