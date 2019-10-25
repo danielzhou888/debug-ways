@@ -14,7 +14,11 @@
 >
 > on frame deactication:在编辑窗口失去焦点的时候更新
 
+**注意：**如果你的工程中没有 Update classes and resources 这个选项，只有如下选项
+
+![](/assets/import14.png)
+
+在这种情况下你更新后只能更新classes文件中的变动，并不能更新静态文件中的变动。
+
 ![](/assets/import13.png)
-
-
 
