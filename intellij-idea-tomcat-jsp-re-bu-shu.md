@@ -32,6 +32,13 @@
 
 点击添加Artifact --&gt;  添加对应的war exploded
 
+这里需要说明下：
+
+> \_\_\_:war exploded   
+> 　　展开部署\(相当于将资源文件进行展开后进行部署\)  
+> \_\_\_:war  
+>         发布模式,这是先打成war包,再部署
+
 ![](/assets/import18.png)![](/assets/import19.png)
 
 ![](/assets/import13.png)
