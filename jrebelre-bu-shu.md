@@ -24,7 +24,7 @@ JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的�
 
 选择License server方式
 
-> Url：    https://jrebel.hexianwei.com/a2db8523-3c85-4a8c-a22d-f8fe1c143dd4
+> Url：    [https://jrebel.hexianwei.com/a2db8523-3c85-4a8c-a22d-f8fe1c143dd4](https://jrebel.hexianwei.com/a2db8523-3c85-4a8c-a22d-f8fe1c143dd4)
 >
 > email：随便输入
 
@@ -34,5 +34,7 @@ JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的�
 
 按照顺序先在本地使用`debug-jrebel`启动`order-service`, 然后启动`order-web`，查询dubbo-admin页面，当前服务是否注册成功。
 
-![](/assets/import31.png)![](/assets/import32.png)
+![](/assets/import31.png)![](/assets/import32.png)可以看到我要测试的这个Service服务是正常的
+
+![](/assets/import33.png)
 
