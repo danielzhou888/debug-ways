@@ -98,7 +98,7 @@
 
 ### 如何配置Service服务
 
-#### 一、服务通过默认启动脚本
+#### 一、服务通过默认启动脚本（不推荐）
 
 ##### 优缺点
 
@@ -274,5 +274,7 @@ cd /export/servers/tomcat/
 $CATALINA_HOME/bin/catalina.sh start -config "/export/servers/tomcat/server-tomcat-8.xml"
 ```
 
+在automan构建下，会执行此脚本，开放远程端口；
 
+预发布环境，需要在运维同学同意与辅助下，开启相应端口；（建议统一端口，此文web远程端口设置为8889）
 
