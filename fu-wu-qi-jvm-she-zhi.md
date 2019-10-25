@@ -112,13 +112,13 @@
 
 ##### 脚本位置
 
-> 在各工程下的server包下有三个脚本：
+> 在各工程下的bin包下有三个脚本：
 
 ##### ![](/assets/import9.png)
 
 ##### 实现
 
-在原脚本基础上，添加如下配置：
+在原启动脚本基础上，添加如下配置：
 
 ```
 -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8888"
