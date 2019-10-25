@@ -32,7 +32,9 @@ JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的�
 
 ### 验证
 
+按照顺序先在本地使用debug-jrebel启动order-service, 然后启动order-web，查询dubbo-admin页面，当前服务是否注册成功。
 
+![](/assets/import31.png)
 
 
 
