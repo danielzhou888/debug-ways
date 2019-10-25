@@ -1,5 +1,7 @@
 ### JRebel热部署\(推荐\)
 
+参考：[https://www.jianshu.com/p/2627e15d25a1](https://www.jianshu.com/p/2627e15d25a1)
+
 ### 介绍JRebel：
 
 JRebel使你能即时看到代码、类和资源的变化，你可以一个个地上传而不是一次性全部部署。当程序员在开发环境中对任何一个类或者资源作出修改的时候，这个变化会直接反应在部署好的应用程序上，从而跳过了构建和部署的过程，节省大量的构建时间。
@@ -15,6 +17,4 @@ JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的�
  3、找到JRebel for intellij  
  4、install  
  5、安装好之后需要restart IDEA
-
-
 
