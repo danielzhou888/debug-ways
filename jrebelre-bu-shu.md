@@ -40,3 +40,7 @@ JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的�
 
 ![](/assets/import34.png)
 
+新增方法getTotalCountByType3，返回200
+
+
+
