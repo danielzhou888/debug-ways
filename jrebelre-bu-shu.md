@@ -6,3 +6,15 @@ JRebel使你能即时看到代码、类和资源的变化，你可以一个个�
 
 JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的情况下，即时看到代码的改变对一个应用程序带来的影响。
 
+### 安装JRebel
+
+安装和使用JRebel需要注意两点：激活和设置
+
+1、在IDEA中一次点击 File-&gt;Settings-&gt;Plugins-&gt;Brows Repositories  
+ 2、在搜索框中输入JRebel进行搜索  
+ 3、找到JRebel for intellij  
+ 4、install  
+ 5、安装好之后需要restart IDEA
+
+
+
