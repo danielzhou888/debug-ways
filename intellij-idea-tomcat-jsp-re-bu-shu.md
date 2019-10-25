@@ -24,11 +24,11 @@
 
 出现这种选项情况的原因是因为在Deployment的选项中使用的是先将工程打成war包然后再去运行的。
 
-
-
 修改如下：
 
 
+
+先remove掉原先设置的war包![](/assets/import16.png)
 
 ![](/assets/import13.png)
 
