@@ -10,7 +10,7 @@
 
 **配置热部署方式：**
 
-![](/assets/import12.png)
+![](/assets/import21.png)
 
 > on ‘update‘ action：当用户主动执行更新的时候更新　　　　快捷键:Ctrl + F9
 >
