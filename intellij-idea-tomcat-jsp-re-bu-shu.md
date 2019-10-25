@@ -1,6 +1,6 @@
 ### intellij idea 热部署
 
-[https://zhidao.baidu.com/question/2203232949939704068.html](https://zhidao.baidu.com/question/2203232949939704068.html)
+参考：[https://zhidao.baidu.com/question/2203232949939704068.html](https://zhidao.baidu.com/question/2203232949939704068.html)
 
 对于需要依赖tomcat打包服务的Web服务，在修改.java、js、jsp文件时，如何做到热加载，无需重启项目呢？
 
