@@ -26,9 +26,13 @@
 
 修改如下：
 
+先remove掉原先设置的war包
 
+![](/assets/import17.png)
 
-先remove掉原先设置的war包![](/assets/import16.png)
+点击添加Artifact --&gt;  添加对应的war exploded
+
+![](/assets/import18.png)![](/assets/import19.png)
 
 ![](/assets/import13.png)
 
