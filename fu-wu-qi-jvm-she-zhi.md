@@ -231,6 +231,8 @@
 
 **外部脚本：**
 
+位置：固定在/export/servers目录下
+
 debug-start.sh
 
     #!/bin/bash
@@ -261,9 +263,9 @@ debug-start.sh
 
     if [ -d "/tmp/project" ]
     then
-    	echo "/tmp/project is exist"
+        echo "/tmp/project is exist"
     else
-    	mkdir -p /tmp/project
+        mkdir -p /tmp/project
     fi
     PID_FILE="/tmp/project/$appname-pid.log"
 
@@ -275,15 +277,15 @@ debug-start.sh
        sh "$DEPLOY_DIR/bin/stop.sh"
        while true
        do
-    	lsof -p $PID_NUM
-    	if [ $? -ne 0 ]
-    	then
-    	    break
-    	else
-    		sh "$DEPLOY_DIR/bin/stop.sh"
-    		echo -e "\033[31m stop faild \033[0m"
-    		sleep 1
-    	fi
+        lsof -p $PID_NUM
+        if [ $? -ne 0 ]
+        then
+            break
+        else
+            sh "$DEPLOY_DIR/bin/stop.sh"
+            echo -e "\033[31m stop faild \033[0m"
+            sleep 1
+        fi
        done
     fi
 
@@ -298,21 +300,21 @@ debug-start.sh
             echo "warn: $APP_MAINCLASS already started! (pid=$psid)"  
             echo "================================"  
     else
-    	echo -n "Starting $APP_MAINCLASS ..." 
-    	#启动
-    	JAVA_OPTS="-server -Xms1024m -Xmx1024m  -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8888"
-    	java $JAVA_OPTS -classpath $LIB_JARS $APP_MAINCLASS >  service.log 2>&1 &
+        echo -n "Starting $APP_MAINCLASS ..." 
+        #启动
+        JAVA_OPTS="-server -Xms1024m -Xmx1024m  -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8888"
+        java $JAVA_OPTS -classpath $LIB_JARS $APP_MAINCLASS >  service.log 2>&1 &
             echo pwd
             echo "java $JAVA_OPTS -classpath $LIB_JARS $APP_MAINCLASS >  service.log 2>&1 &"
 
     sleep 10
-    	#查看启动状态
-    	checkpid
+        #查看启动状态
+        checkpid
         if [ $psid -ne 0 ]; then  
             echo -e "\033[32m (pid=$psid) [OK] \033[0m"  
 
-    		PID=$!
-    		echo $PID > $PID_FILE
+            PID=$!
+            echo $PID > $PID_FILE
         else  
             echo -e  "\033[31m [Failed] \033[0m"  
         fi
