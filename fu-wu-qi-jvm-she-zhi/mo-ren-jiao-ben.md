@@ -141,7 +141,7 @@
 
 **使用：**
 
-> 需要调试此服务时，保持服务器上代码与本地代码相同，执行debug-service-restart.sh脚本，开启远程端口，本地debug当前服务即可。
+> 需要调试此服务时，保持服务器上代码与本地代码相同，执行debug-service-restart.sh脚本，会重启当前服务，并开启远程端口，本地debug当前服务即可。
 
 debug-service-restart.sh
 
@@ -234,5 +234,7 @@ debug-service-restart.sh
 
 > 默认存放在/export/servers目录下，文件名称固定为：debug-service-restart.sh
 
+**说明**
+预发布环境，需要在运维同学同意与辅助下，开启相应端口；（建议统一端口，此文service远程端口设置为8888）
 
 
