@@ -2,7 +2,7 @@
 
 #### service 服务
 
-启动：service服务启动是通过`*-impl`项目bin目录下的start.sh脚本启动
+启动：service服务启动是通过`*-impl`项目bin目录下的start.sh脚本启动（jenkins打包，automan构建）
 
 原脚本：
 
