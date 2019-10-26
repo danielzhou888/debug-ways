@@ -6,16 +6,16 @@
 
 ##### 参数解释
 
-> -XDebug 启用调试。  
-> -Xnoagent 禁用默认sun.tools.debug调试器。  
-> -Djava.compiler=NONE 禁止 JIT 编译器的加载。  
-> -Xrunjdwp 加载JDWP的JPDA参考执行实例。  
-> transport 用于在调试程序和 VM 使用的进程之间通讯。  
-> dt\_socket 套接字传输。  
-> dt\_shmem 共享内存传输，仅限于 Windows。  
-> server=y/n VM 是否需要作为调试服务器执行。  
-> address=5005 调试服务器的端口号，客户端用来连接服务器的端口号。  
-> suspend=y/n 是否在调试客户端建立连接之后启动 VM 。
+> -XDebug : 启用调试。  
+> -Xnoagent : 禁用默认sun.tools.debug调试器。  
+> -Djava.compiler=NONE : 禁止JIT编译器的加载。  
+> -Xrunjdwp : 加载JDWP的JPDA参考执行实例。  
+> transport : 用于在调试程序和VM使用的进程之间通讯。  
+> dt\_socket : 套接字传输。  
+> dt\_shmem : 共享内存传输，仅限于 Windows。  
+> server=y/n : VM是否需要作为调试服务器执行。  
+> address=5005 : 调试服务器的端口号，客户端用来连接服务器的端口号。  
+> suspend=y/n : 是否在调试客户端建立连接之后启动 VM 。
 
 ##### 几个例子
 
