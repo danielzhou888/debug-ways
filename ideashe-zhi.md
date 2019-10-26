@@ -20,7 +20,7 @@
 ##### 几个例子
 
 > -Xrunjdwp:transport=dt\_socket,server=y,address=8000
-> 　　在8000端口监听Socket连接，挂起VM并且不加载运行主函数直到调试请求到达
+> 在8000端口监听Socket连接，挂起VM并且不加载运行主函数直到调试请求到达
 >
 > -Xrunjdwp:transport=dt\_shmem,server=y,suspend=n
 > 选择一个可用的共享内存（因为没有指address）并监听该内存连接，同时加载运行主函数
