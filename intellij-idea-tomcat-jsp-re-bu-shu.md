@@ -1,4 +1,4 @@
-### intellij idea 热部署
+### intellij idea + tomcat 热部署
 
 参考：[https://zhidao.baidu.com/question/2203232949939704068.html](https://zhidao.baidu.com/question/2203232949939704068.html)
 

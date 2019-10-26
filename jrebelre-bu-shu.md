@@ -34,9 +34,12 @@ JRebel是一款Java虚拟机插件，它使得我们能在不进行重部署的�
 
 按照顺序先在本地使用`debug-jrebel`启动`order-service`, 然后启动`order-web`，查询dubbo-admin页面，当前服务是否注册成功。
 
-![](/assets/import31.png)![](/assets/import32.png)可以看到我要测试的这个Service服务是正常的
+![](/assets/import31.png)![](/assets/import32.png)
 
-![](/assets/import33.png)原先的方法getTotalCountByType2获取到的total值为100
+可以看到我要测试的这个Service服务是正常的
+
+![](/assets/import33.png)
+原先的方法getTotalCountByType2获取到的total值为100
 
 ![](/assets/import34.png)
 
