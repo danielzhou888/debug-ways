@@ -11,7 +11,7 @@ tomcat启动脚本
 ![](/assets/import6.png)添加配置：
 
 ```
-java -server -Xms1024m -Xmx1024m -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8888 -classpath /export/servers/ddky-user-impl-1.0.0/lib com.ddky.user.server.Startup > service.log 2>&1 &
+-Xdebug -Xrunjdwp:transport=dt_socket,suspend=n,server=y,address=8889
 ```
 
 脚本内容：
