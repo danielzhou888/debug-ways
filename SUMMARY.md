@@ -8,6 +8,7 @@
     * [如何配置Web服务](fu-wu-qi-jvm-she-zhi/ru-he-pei-zhi-web-fu-wu.md)
   * [intellij idea设置](ideashe-zhi.md)
   * [eclipse设置](eclipseshe-zhi.md)
+  * [端口开放](duan-kou-kai-fang.md)
 * [IDEA + JRebel热部署\(推荐\)](jrebelre-bu-shu.md)
 * [intellij idea + tomcat热部署](intellij-idea-tomcat-jsp-re-bu-shu.md)
 * [DevTools热部署](devtoolsre-bu-shu.md)
